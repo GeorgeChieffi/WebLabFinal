@@ -57,7 +57,24 @@ article {
     height:256px;
 }
 
-
+/* (A) 3 COLUMNS PER ROW */
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 10px;
+    background-color: #333;
+    color: white;
+}
+/* (B) 1 COL ON SMALL SCREENS */
+@media screen and (max-width:768px) {
+  #grid { grid-template-columns: auto; }
+}
+/* (C) OPTIONAL FOR THE CELLS */
+.cell {
+  border: 1px solid #c2ba3c;
+  background: #f8ffde;
+  padding: 10px;
+}
 
 
 footer {

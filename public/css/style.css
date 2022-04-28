@@ -1,0 +1,67 @@
+html{
+    background-color: #333;
+}
+body{
+    background-color: white;
+    margin: 10px;
+    font-family: "Gill Sans", sans-serif;
+    color: #333;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+header{
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: URL("../Images/headerBanner.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: white;
+    color: #333;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+}
+
+article {
+    display: grid;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #333;
+    color: white;
+}
+.articleImg {
+    background-image: URL("../Images/Puppy1.jpg");
+    background-repeat: no-repeat;
+    height:256px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

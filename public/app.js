@@ -1,12 +1,11 @@
 const gridTemplate = document.getElementById("grid");
 
 var data = [
-    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"],
-    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"],
-    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"]
+    ["<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>"],
+    ["<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>"],
+    ["<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>", "<a href=\"./Puppy2.html\"><img src=\"./Images/Puppy2.jpg\"></img></a>"]
 ];
 
-console.log("before loop");
 for(let i of data) {
     for(let j of i) {
         let cell = document.createElement("div");
@@ -15,3 +14,8 @@ for(let i of data) {
         gridTemplate.appendChild(cell);
     }
 }
+
+let test = document.getElementById("grid");
+test.addEventListener("mouseover" , () => {
+    test.innerHTML("Name");
+});

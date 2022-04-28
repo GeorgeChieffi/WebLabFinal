@@ -21,7 +21,7 @@ header{
     color: white;
     text-align: center;
 }
-a:link, a:visited {
+header a:link, a:visited {
     background-color: #333;
     color: white;
     padding: 14px 25px;
@@ -30,7 +30,7 @@ a:link, a:visited {
     display: inline-block;
 }
   
-a:hover, a:active {
+header a:hover, a:active {
     background-color: white;
     color: #333;
 }
@@ -70,15 +70,17 @@ article {
 }
 /* (C) OPTIONAL FOR THE CELLS */
 .cell {
-  border: 1px solid #c2ba3c;
-  background: #f8ffde;
   margin: 10px;
 }
 .cell img {
     margin: auto;
     display: block;
+    border-radius: 128px;
 }
-
+.cell img:hover{
+    background-color: #333;
+    opacity: 10%;
+}
 footer {
     background-color: #333;
     color: white;

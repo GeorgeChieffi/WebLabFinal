@@ -1,9 +1,9 @@
 const gridTemplate = document.getElementById("grid");
 
 var data = [
-    ["<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>"],
-    ["<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>"],
-    ["<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>", "<img src=\"./Puppy2.jpg\"></img>"]
+    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"],
+    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"],
+    ["<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>", "<img src=\"./Images/Puppy2.jpg\"></img>"]
 ];
 
 console.log("before loop");

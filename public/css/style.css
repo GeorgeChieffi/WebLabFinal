@@ -61,7 +61,6 @@ article {
 #grid {
     display: grid;
     grid-template-columns: auto auto auto; 
-    grid-gap: 10px;
     background-color: #333;
     color: white;
 }
@@ -73,12 +72,16 @@ article {
 .cell {
   border: 1px solid #c2ba3c;
   background: #f8ffde;
-  padding: 10px;
+  margin: 10px;
 }
-
+.cell img {
+    margin: auto;
+    display: block;
+}
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
+    margin-top: 10px;
 }

@@ -45,16 +45,22 @@ nav {
 article {
     display: grid;
     margin-top: 10px;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     background-color: #333;
     color: white;
+    text-align: center;
+    
 }
 .articleImg {
     background-image: URL("../Images/Puppy1.jpg");
     background-repeat: no-repeat;
     height:256px;
+    width:256px;
+    border-radius: 128px;
+    margin: auto;
 }
 
 /* (A) 3 COLUMNS PER ROW */
@@ -66,7 +72,8 @@ article {
 }
 /* (B) 1 COL ON SMALL SCREENS */
 @media screen and (max-width:768px) {
-  #grid { grid-template-columns: auto; }
+    #grid { grid-template-columns: auto; }
+    article { grid-template-columns: auto; }
 }
 /* (C) OPTIONAL FOR THE CELLS */
 .cell {

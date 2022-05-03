@@ -5,8 +5,6 @@ use a hover effect to display the name of the puppy
 create an about us page
 create a contact us page
 
-use code from assignment three to adjust the article section
-
 restyle the grid
 
 make responsive to different page sizes

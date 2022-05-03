@@ -61,19 +61,22 @@ article {
     width:256px;
     border-radius: 128px;
     margin: auto;
+    border: 5px solid white;
 }
 
 /* (A) 3 COLUMNS PER ROW */
 #grid {
     display: grid;
     grid-template-columns: auto auto auto; 
-    background-color: #333;
+    background-color: #333333;
     color: white;
+    text-align: center;
 }
 /* (B) 1 COL ON SMALL SCREENS */
 @media screen and (max-width:768px) {
     #grid { grid-template-columns: auto; }
     article { grid-template-columns: auto; }
+    .cell { border: 2px solid white; }
 }
 /* (C) OPTIONAL FOR THE CELLS */
 .cell {
@@ -83,6 +86,7 @@ article {
     margin: auto;
     display: block;
     border-radius: 128px;
+    border: 5px solid white;
 }
 .cell img:hover{
     background-color: #333;

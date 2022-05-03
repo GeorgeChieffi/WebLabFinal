@@ -1,10 +1,10 @@
-change the photos of the grid to seperate puppies
-
-use a hover effect to display the name of the puppy
+change the photos of the grid to seperate puppies (would require API)
 
 create an about us page
 create a contact us page
 
-restyle the grid
-
-make responsive to different page sizes
+make 
+1.home
+2.about
+3.contact
+responsive to different page sizes

@@ -1,0 +1,55 @@
+html{
+    background-color: #333;
+}
+body{
+    background-color: white;
+    margin: 10px;
+    font-family: "Gill Sans", sans-serif;
+    color: #333;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+header{
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: URL("../Images/headerBanner.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+header a:hover, a:active {
+    background-color: white;
+    color: #333;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+}
+/* (B) 1 COL ON SMALL SCREENS */
+@media screen and (max-width:768px) {
+    article { grid-template-columns: auto; }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

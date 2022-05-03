@@ -20,6 +20,7 @@ header{
     background-size: cover;
     color: white;
     text-align: center;
+    margin-bottom: 10px;
 }
 header a:link, a:visited {
     background-color: #333;
@@ -44,23 +45,14 @@ nav {
 
 article {
     display: grid;
-    margin-top: 10px;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #333;
     color: white;
     text-align: center;
+    margin-bottom: 0px;
     
-}
-.articleImg {
-    background-image: URL("../Images/Puppy1.jpg");
-    background-repeat: no-repeat;
-    height:256px;
-    width:256px;
-    border-radius: 128px;
-    margin: auto;
-    border: 5px solid white;
 }
 .articleImgAbout {
     background-image: URL("../Images/about-us-icon.jpg");
@@ -72,37 +64,16 @@ article {
     border: 5px solid white;
 }
 section {
+    padding: 10px;
     background-color: #333;
+    color:white;
 }
 
-/* (A) 3 COLUMNS PER ROW */
-#grid {
-    display: grid;
-    grid-template-columns: auto auto auto; 
-    background-color: #333333;
-    color: white;
-    text-align: center;
-}
 /* (B) 1 COL ON SMALL SCREENS */
 @media screen and (max-width:768px) {
-    #grid { grid-template-columns: auto; }
     article { grid-template-columns: auto; }
-    .cell { border: 2px solid white; }
 }
-/* (C) OPTIONAL FOR THE CELLS */
-.cell {
-  margin: 10px;
-}
-.cell img {
-    margin: auto;
-    display: block;
-    border-radius: 128px;
-    border: 5px solid white;
-}
-.cell img:hover{
-    background-color: #333;
-    opacity: 10%;
-}
+
 footer {
     background-color: #333;
     color: white;

@@ -47,6 +47,35 @@ nav {
     article { grid-template-columns: auto; }
 }
 
+section {
+    display: grid;
+    grid-template-columns: 1;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+div div{
+    margin:10px;
+}
+div input{
+    background-color: #555;
+    width: 100%;
+    color:white;
+}
+#textarea {
+    background-color: #555;
+    width: 100%;
+    color:white;
+}
+
+
 footer {
     background-color: #333;
     color: white;

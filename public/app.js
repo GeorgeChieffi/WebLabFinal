@@ -3,7 +3,7 @@ const gridTemplate = document.getElementById("grid");
 for(let i = 0; i < 9; i++) {
     let cell = document.createElement("div");
     let aTag = document.createElement("a");
-    aTag.setAttribute("href", "./Puppy2.html");
+    aTag.setAttribute("href", "./puppy2.html");
     let imgTag = document.createElement("img");
     imgTag.setAttribute("src", "./Images/Puppy2.jpg")
     aTag.appendChild(imgTag);

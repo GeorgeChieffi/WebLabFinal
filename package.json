@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node ./public/index",
-    "dev": "nodemon ./public/index"
+    "start" : "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "George Chieffi",
   "license": "ISC",

@@ -4,7 +4,7 @@ html{
 body{
     background-color: white;
     margin: 10px;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #333;
     padding: 10px;
     padding-bottom: 5px;
@@ -52,6 +52,15 @@ article {
     color: white;
     text-align: center;
     
+}
+.puppy2Img{
+    background-image: URL("../Images/about-us-icon.jpg");
+    background-repeat: no-repeat;
+    height:256px;
+    width:256px;
+    border-radius: 128px;
+    margin: auto;
+    border: 5px solid white;
 }
 .articleImg {
     background-image: URL("../Images/Puppy1.jpg");
